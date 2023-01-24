@@ -4,62 +4,62 @@
 ```
 ### General
 ```bash
-bin/console about
+about
 ```
 ```bash
-bin/console help
+help
 ```
 ```bash
-bin/console list
+list
 ```
 ### Theme
 ```bash
-bin/console theme:compile
+theme:compile
 ```
 ```bash
-bin/console theme:create
+theme:create
 ```
 ### Cache
 ```bash
-bin/console cache:clear
+cache:clear
 ```
 ```bash
-bin/console cache:warmup
+cache:warmup
 ```
 ### Plugin
 ```bash
-bin/console plugin:refresh
+plugin:refresh
 ```
 ```bash
-bin/console plugin:list
+plugin:list
 ```
 ```bash
-bin/console plugin:install [--clearCache] [--activate]
+plugin:install [--clearCache] [--activate]
 ```
 ```bash
-bin/console plugin:uninstall [--clearCache]
+plugin:uninstall [--clearCache]
 ```
 ```bash
-bin/console plugin:activate "pluginname" [--clearCache]
+plugin:activate "pluginname" [--clearCache]
 ```
 ```bash
-bin/console plugin:deactivate "pluginname" [--clearCache]
+plugin:deactivate "pluginname" [--clearCache]
 ```
 ```bash
-bin/console plugin:update
+plugin:update
 ```
 ### User
 ```bash
-bin/console user:create username [--admin] [--email=name@domain.de] [--firstName="name"] [--lastName="name"] [--password=pwd]
+user:create username [--admin] [--email=name@domain.de] [--firstName="name"] [--lastName="name"] [--password=pwd]
 ```
 ```bash
-bin/console user:change-password username
+user:change-password username
 ```
 ### Messenger
 ```bash
-bin/console messenger:consume
+messenger:consume
 ```
 ### Tasks
 ```bash
-bin/console scheduled-task:run
+scheduled-task:run
 ```
