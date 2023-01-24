@@ -55,6 +55,16 @@ user:create username [--admin] [--email=name@domain.de] [--firstName="name"] [--
 ```bash
 user:change-password username
 ```
+### Database Migrations
+```bash
+database:create-migration -p pluginname [--name examplename]
+```
+```bash
+database:migrate [pluginname] [--all]
+```
+```bash
+database:migrate-destructive [pluginname] [--all]
+```
 ### Messenger
 ```bash
 messenger:consume
