@@ -40,10 +40,10 @@ plugin:install [--clearCache] [--activate]
 plugin:uninstall [--clearCache]
 ```
 ```bash
-plugin:activate "pluginname" [--clearCache]
+plugin:activate pluginname [--clearCache]
 ```
 ```bash
-plugin:deactivate "pluginname" [--clearCache]
+plugin:deactivate pluginname [--clearCache]
 ```
 ```bash
 plugin:update
