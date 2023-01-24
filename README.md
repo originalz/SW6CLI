@@ -1,3 +1,4 @@
+## Shopware 6 CLI
 ### Plesk Server Information
 ```bash
 /opt/plesk/php/7.4/bin/php -d memory_limit=-1 bin/console
