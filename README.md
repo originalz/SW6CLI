@@ -74,3 +74,7 @@ messenger:consume
 ```bash
 scheduled-task:run
 ```
+### Refresh SEO Index
+```bash
+dal:refresh:index
+```
