@@ -84,5 +84,5 @@ After that you need to generate those thumbnails via a command
 ```bash
 media:generate-thumbnails
 ```
-If you change the thumbnail sizes or add new ones you need to clear the thumbnail table.
-Shopware doesnt check for differences in the thumbnails, just for additions
+If you change the thumbnail sizes or add new ones you need to clear the media_thumbnail table.
+Shopware doesnt check for differences in the thumbnails, just for the first addition
