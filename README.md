@@ -78,3 +78,11 @@ scheduled-task:run
 ```bash
 dal:refresh:index
 ```
+### Generate Media Thumbnails
+First of all you need to activate the different thumbnail sizes for your media folders.
+After that you need to generate those thumbnails via a command
+```bash
+media:generate-thumbnails
+```
+If you change the thumbnail sizes or add new ones you need to clear the thumbnail table.
+Shopware doesnt check for differences in the thumbnails, just for additions
